@@ -7,7 +7,7 @@
 
 <html class="theme-next muse use-motion" lang="en">
 <head>
-  <meta charset="UTF-8"/>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
@@ -87,7 +87,7 @@
 <meta property="og:description" content="（说明：由于实验91分最高分数据被误删，本次数据来源于5月12日得分为85分的实验） 原始数据记录                x&#x2F;mm 0 0.5 1 1.5 2 2.5 3 3.5   读数l&#x2F;mW 0.004 0.01 0.018 0.025 0.031 0.032 0.029 0.021   x&#x2F;mm 4 4.5 5 5.5 6 6.5 7 7.5   读数l&#x2F;mW 0.012 0.00">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-05-20T13:56:39.000Z">
-<meta property="article:modified_time" content="2020-05-20T14:25:38.702Z">
+<meta property="article:modified_time" content="2020-05-21T11:22:20.962Z">
 <meta property="article:author" content="lewis liu">
 <meta name="twitter:card" content="summary">
 
@@ -135,7 +135,7 @@
 
 
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
@@ -144,7 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -579,7 +579,7 @@
 </tbody></table>
 <h2 id="数据处理"><a href="#数据处理" class="headerlink" title="数据处理"></a>数据处理</h2><hr>
 <h4 id="1-逐差法计算相临暗纹的距离与单缝宽度a。"><a href="#1-逐差法计算相临暗纹的距离与单缝宽度a。" class="headerlink" title="1.逐差法计算相临暗纹的距离与单缝宽度a。"></a>1.逐差法计算相临暗纹的距离与单缝宽度a。</h4><p>$$<br>x_1=21.5 \quad x_2=27 \quad x_3=32 \quad  x_{-1}=10.5 \quad  x_{-2}=5 \quad x_{-3}=0<br>$$</p>
-<p>$$<br>\Delta x_1=\frac{x_3-x_{-1}}{4}=\frac{32-10.5}{4}=5.375 \quad \Delta x_2=\frac{x_2-x_{-2}}{4}=\frac{27-5}{4}=5.5 \quad \Delta x_3=\frac{x_1-x_{-3}}{4}=\frac{21.5-0}{4}=5.375 \quad<br>$$</p>
+<p>$$<br>\Delta x_1=\frac{x_3-x_{-1}}{4}=\frac{32-10.5}{4}=5.375 \quad \Delta x_2=\frac{x_2-x_{-2}}{4}=\frac{27-5}{4}=5.5 \quad \\ \Delta x_3=\frac{x_1-x_{-3}}{4}=\frac{21.5-0}{4}=5.375 \quad<br>$$</p>
 <p>相邻暗纹的平均值$\Delta \bar{x}$：</p>
 <p>$$<br>\Delta \bar{x}=\frac{\Delta x_1+\Delta x_2+\Delta x_3}{3}=\frac{5.375+5.5+5.375}{3}=5.4166666666667\approx5.417<br>$$</p>
 <p>由 $f=\vert L_2-L_1\vert+\Delta f$ 可知:</p>
@@ -587,7 +587,7 @@
 <h4 id="2-计算单缝宽度的标准偏差，写出单缝宽度的实验结果表达式。"><a href="#2-计算单缝宽度的标准偏差，写出单缝宽度的实验结果表达式。" class="headerlink" title="2.计算单缝宽度的标准偏差，写出单缝宽度的实验结果表达式。"></a>2.计算单缝宽度的标准偏差，写出单缝宽度的实验结果表达式。</h4><p>$$<br>\frac{S(\bar{a})}{\bar{a}}=\frac{S(\Delta \bar{x})}{\Delta \bar{x}}\Rightarrow S(\bar{a})=\frac{S(\Delta \bar{x})}{\Delta \bar{x}}\cdot\bar{a}<br>$$</p>
 <ul>
 <li><p>标准偏差$S(\Delta \bar{x})$</p>
-<p>  $$<br>  S(\Delta \bar{x})=\sqrt{\frac{\sum_{i=1}^3(\Delta x_i-\Delta \bar{x})^2}{2\times3}}=\sqrt{\frac{(5.375-5.417)^2+(5.375-5.417)^2+(5.5-5.417)^2}{6}}=0.041667333328\approx0.0417<br>  $$</p>
+<p>  $$<br>  S(\Delta \bar{x})=\sqrt{\frac{\sum_{i=1}^3(\Delta x_i-\Delta \bar{x})^2}{2\times3}}=\sqrt{\frac{(5.375-5.417)^2+(5.375-5.417)^2+(5.5-5.417)^2}{6}} \\ =0.041667333328\approx0.0417<br>  $$</p>
 </li>
 <li><p>单缝宽度的标准偏差$S(\bar{a})$</p>
 <p>  $$<br>  S(\bar{a})=\frac{S(\Delta \bar{x})}{\Delta \bar{x}}\cdot\bar{a}=\frac{0.04167}{5.417}\times0.0923=0.00070882038028429\approx0.0007<br>  $$</p>
@@ -598,7 +598,7 @@
 <p>  $$<br>  E=\frac{S(\Delta \bar{x})}{\Delta \bar{x}}\times100%=\frac{0.05}{5.417}\times100%=0.92302%\approx0.92%<br>  $$</p>
 </li>
 </ul>
-<h4 id="3-实验结果表达式"><a href="#3-实验结果表达式" class="headerlink" title="3.实验结果表达式"></a>3.实验结果表达式</h4><p>$$<br>\begin{cases}<br>a=\bar{a}\pm S(\bar{a})=(0.0923\pm 0.0007)\<br>E=\frac{S(\Delta \bar{x})}{\Delta \bar{x}}\times100%=0.92%<br>\end{cases}<br>$$</p>
+<h4 id="3-实验结果表达式"><a href="#3-实验结果表达式" class="headerlink" title="3.实验结果表达式"></a>3.实验结果表达式</h4><p>$$<br>a=\bar{a}\pm S(\bar{a})=(0.0923\pm 0.0007) \\ E=\frac{S(\Delta \bar{x})}{\Delta \bar{x}}\times100%=0.92%<br>$$</p>
 
       
     </div>
@@ -830,9 +830,10 @@
   
 
 
+
+
   
-
-
+  
 
 
 
@@ -874,7 +875,12 @@
 
   
   
-    <script type="text/javascript" src="true"></script>
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
@@ -971,7 +977,7 @@
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
